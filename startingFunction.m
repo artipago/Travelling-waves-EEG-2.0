@@ -10,8 +10,7 @@ wavesCreatorAllFreqs(eletrodesLines,behavior.output);
 %plotting the results
 load('dataWavesAttention.mat') 
 
-[res100]=computeWaves(results100);
+[res100]=prepareWaves(results100);
 
-sizeWindow=1000;
-plotResBlock(res100,sizeWindow);
+plotResBlock(res100);
 

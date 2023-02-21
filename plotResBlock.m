@@ -1,12 +1,9 @@
-function plotResBlockML(res100,sizeTW)
+function plotResBlock(res100)
 
 %it's always attention RIGHT (the left have been flipped)
 
-if sizeTW==1000
-    fx = 1:45;
-elseif sizeTW==500
-    fx = 2:2:45;
-end
+fx = 2:2:45;
+
 
 e11=1;
 e12=5;
